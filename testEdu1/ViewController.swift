@@ -20,5 +20,12 @@ final class ViewController: UIViewController {
         // Do any additional setup after loading the view.
 
         // Добавь лэйбл по центру с текстом "тестовый текст"
+        labelForTest.text = "Тестовый текст"
+        
+        labelForTest.sizeToFit()
+        
+        labelForTest.center = view.center
+        
+        view.addSubview(labelForTest)
     }
 }
